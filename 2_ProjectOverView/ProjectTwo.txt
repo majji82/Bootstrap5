@@ -1,0 +1,5 @@
+Digital Biz
+
+- Navigation Bar
+- Image [Still image]
+- Perfectly responsive...

@@ -1,0 +1,7 @@
+Requirements:
+
+- Code Editor [VS Code => free]
+- HTML + CSS (preRequisites)
+- Andromeda, Live Server, Live SaSS Compiler [Extensions]
+- Browser [Google Chrome]
+- Node.js [JS runtime environment]  (Check by using: node --version) [Downloading node: nodejs.org]

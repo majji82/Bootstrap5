@@ -1,0 +1,15 @@
+Bootstrap is one of the most popular CSS Framework known for its Mobile-First approach, consistent UI, Simplicity, Reliability and compatibility across various platforms.
+
+Prerequisite: HTML + CSS + JS
+
+Overview:
+
+- Environment Setup
+- Project Overview
+- Fundamentals of Bootstrap
+- Bootstrap Icons
+- Project-1 
+- Project-2 [Custom CSS]
+- Project-3 [Bootstrap + SaSS]
+- Project-4
+- Conclusion....

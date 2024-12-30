@@ -1,0 +1,8 @@
+- NavBar
+- Carousel with selection + Fade Affect
+- About Us
+- Work section [Hover Effect]
+- Our Projects section 
+- Team Section 
+- Contact US.. (Using SaSS)
+=> Its perfectly responsive...
