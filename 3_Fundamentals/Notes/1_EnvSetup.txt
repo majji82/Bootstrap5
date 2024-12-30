@@ -1,0 +1,42 @@
+Bootstrap we need 
+1. bootstrap.css
+2. bootstrap.js
+
+To use bootstrap in our project we have three methods:
+
+1. Content Delivery Network [CDN]
+2. Download the files locally
+3. Using NPM (node.js)
+
+Method -1 : Downloading the files locally 
+
+To download the files locally we can download from getbootstrap.com
+It will give us a bunch of css files and js files..We don't need all of them.. 
+
+We need bootstrap.css and bootstrap.js files..In order to load the project quickly instead of using them we can also use bootstrap.min.css and bootstrap.min.js 
+
+Method - 2: Using CDN
+
+Go to getbootstrap.com, there inside the GetStarted => Downloads => we will find the link to CDN..
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+Method 3: Using NPM
+
+initialize npm using npm init or npm init -y...
+
+for latest version:     npm i bootstrap
+for specific version:   npm i bootstrap@version [Ex: npm i bootstrap@5.3.3]
+
+After installing specify the css and js paths....
+
+ <link
+    rel="stylesheet"
+    href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+/>

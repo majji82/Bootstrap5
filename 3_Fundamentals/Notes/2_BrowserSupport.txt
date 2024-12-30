@@ -1,0 +1,12 @@
+Bootstrap5 supports almost all major browsers like:
+
+Chrome
+Firefox
+Edge
+Safari
+Brave etc..
+
+Also supports android and IOS 
+
+Note: It doesn't support Internet Explorer.. 
+      Doesn't support JQuery Natively..

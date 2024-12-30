@@ -1,0 +1,35 @@
+Margin vs Padding:
+
+Padding increases the space inside the element whereas margin increase the space outside the element..
+
+In Bootstrap we can use the margin and padding using m and p by creating a class..
+
+Ex:
+
+<div class="p-3 m-4">
+    <p>This is a paragraph</p>
+</div>
+
+In this example the div class gets a padding of 12px and margin of 16px..
+
+1 => 4px
+2 => 8px
+3 => 12px
+4 => 16px 
+5 => 20px... 5 is the max number...
+
+for padding use => p 
+for padding-top => use pt 
+for padding-left => use ps (padding-start)
+for padding-right => use pe (padding-end)
+for padding-bottom => use pb 
+
+Same for margin..
+
+py => top and bottom same value 
+my => margin top and bottom same value
+mx => margin left and right same value
+
+w => width in percentages
+
+Note: For div in center use mx-auto

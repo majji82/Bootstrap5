@@ -1,0 +1,12 @@
+For headings we have classes with h1 to h6.
+
+ex: <h1 class="h1">This is a Heading</h1>
+Use Case:
+According to SEO rules we cannot use more than one h1..But we can use p tag as h1 by using class=h1  
+
+For text to appear a bit grey use: class="text-muted"
+for text to be center aligned use: class="text-center"
+for text to be right aligned use: class="text-end"
+for text to be left aligned use: class="text-start"
+
+There is also display-1 to display-6 and also lead attributes for bootstrap classes..

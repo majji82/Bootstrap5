@@ -1,0 +1,2 @@
+Whenever we work with a normal CSS file, there is some margin, padding and also different font sizes and font family which might look a bit inconsistent.
+    But as soon as we add the bootstrap to our project it normalizes all the values such that our site looks better.
