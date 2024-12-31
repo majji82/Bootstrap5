@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md bg-primary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.google.com">Jaane Jigars</a>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#main_menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            id="main_menu"
+            class="collapse navbar-collapse justify-content-end"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="" class="nav-link">About Us</a></li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Our Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <div
+            class="carousel slide carousel-fade"
+            id="slider"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <img
+                  class="img-fluid"
+                  src="https://moviegalleri.net/wp-content/gallery/guntur-kaaram-hd-images/Guntur-Kaaram-Movie-HD-Images-2543622.jpg"
+                  alt=""
+                />
+                <div class="carousel-caption">
+                  <h5>This is a caption</h5>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="img-fluid"
+                  src="https://moviegalleri.net/wp-content/gallery/guntur-kaaram-hd-images/Guntur-Kaaram-Movie-HD-Images-271c90f.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid" src="./img/3.jpg" alt="" />
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button
+                data-bs-target="#slider"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button data-bs-target="#slider" data-bs-slide-to="1"></button>
+              <button data-bs-target="#slider" data-bs-slide-to="2"></button>
+            </div>
+            <button
+              class="carousel-control-prev"
+              data-bs-target="#slider"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+
+            <button
+              class="carousel-control-next"
+              data-bs-target="#slider"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
