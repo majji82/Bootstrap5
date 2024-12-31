@@ -1,0 +1,10 @@
+What is gutter?
+
+Gutter is the default padding that comes with the columns which is approx 1.5rem (24px) wide..
+
+We can also change the default gutter size using gx...where it changes the padding left and right [x-axis, horizontal] gy => y axis changes top and bottom..
+It ranges from gx-1 to gx-5 [4px - 24px]
+
+Note: if we give gutter value 0 => then there will be no space between them..
+
+If we need equal gutter in both x and y axis then we can just use g-2 (any number)
