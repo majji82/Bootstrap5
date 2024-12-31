@@ -1,0 +1,32 @@
+To create a grid using bootstrap we have inbuilt classes.. we have to use container, row and col..
+
+inside the container place the row,and inside the row place as many columns as you need..
+
+Control the sizing of each column:
+
+=> If we place multiple columns, then by default bootstrap gives equal space to all the columns and make them center aligned as they are present in a container...
+    But if we need to distribute the space unequally among the columns then we have to specify a specific number beside the columns..
+
+How?
+
+=> By default all the columns combined together get the number 12. so divide the number accordingly for all columns such that they add up to 12.
+
+Ex: <div class="col-2"> and <div class="col-10"> both add up to 12 and one gets 16% and other gets 84%..
+
+We can also use the breakpoint classes..to make them stack over each other..
+
+What if we give number to some of the cols? => rest will divide remaining area equally
+
+If we have all the numbers less than 12, it will leave some free space towards right..If we need to align then center just use justify-content-center in row..
+
+We can also specify how many columns we need in a row by using row-cols-2(number)
+
+For no of columns for specific breakpoints:
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+
+row-cols-1: For extra small and small screens.
+row-cols-md-2: For medium screens and above (e.g., tablets).
+row-cols-lg-2: For large screens and above (e.g., desktops).
+
+
+We can also nest them accordingly...
