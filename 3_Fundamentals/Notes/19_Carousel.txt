@@ -1,0 +1,24 @@
+Carousel:
+
+We have a box[background image]..We have a left and right arrows..and also we can place some at the bottom..Right arrow => slide to next..left => slide to left..
+
+top-level:
+
+carousel
+slide
+carousel-fade
+Give an id
+data-bs-ride = carousel // for automatic slide show
+
+    Next-level:
+
+    carousel-inner
+        carousel-item
+        active
+        data-bs-interval = 2000
+        carousel-caption
+    carousel-indicators
+        data-bs-target = "#id"
+        data-bs-slide-to = "slideNumber"
+    button => class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev"
+    button => class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next"
