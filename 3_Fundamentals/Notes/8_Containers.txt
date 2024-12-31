@@ -1,0 +1,24 @@
+Whenever we write text in paragraph or we store that paragraph in a div..It occupies the complete screen..But we generally don't want it to occupy the complete screen and sometimes we need it to be in center..
+
+So bootstrap has an inbuilt class called container which we can use to align the text at center and also set the padding and margin in a correct way..
+
+Note: 
+If we use it we also don't have to worry about the viewport breakpoints..It will automatically be responsive..
+
+Default:
+
+for xxl => >1400px => width: 1320px
+for xl  => >1200px => width: 1140px
+for lg  => >992px  => width: 960px
+for md  => >768px  => width: 720px
+for sm  => >576px  => width: 540px
+
+fluid:
+
+Now as we see for different breakpoints, it takes different width and aligns the container to the center. But to make it take the complete screen use fluid..
+
+<div class="container-fluid"></div>
+
+If we need to take the container full screen after a certain breakpoint use the breakpoint class after the container
+
+<div class="container-xl"></div>
