@@ -11,3 +11,4 @@ table-hover
 table-bordered
 border-danger
 table-borderless
+table-responsive => must be in the parent element of the table element wrapped around the table 

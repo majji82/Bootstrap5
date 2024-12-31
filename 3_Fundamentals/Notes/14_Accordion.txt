@@ -1,0 +1,40 @@
+What is Accordion?
+
+In accordion the content is hidden inside the title..If the title is clicked the content appears..
+
+Use case:
+FAQ's and Q&A
+
+Structure of Accordion:
+
+There are two parts in an accordion => first one is a button which if clicked the second section appears which is the body..
+
+Eac button is connected to a specific content area..How to connect them? Using Id. The content has an ID which is given to the button which when clicked opens the content area with the same id...
+
+<div class="accordion-item">
+    <h2 class="accordion-header">
+    <button
+        class="accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#itemThree"
+        aria-expanded="true"
+        aria-controls="itemThree"
+    >
+        Item-3
+    </button>
+    </h2>
+    <div id="itemThree" class="accordion-collapse collapse">
+    <div class="accordion-body">
+        <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Maiores in fugit, modi praesentium iure nobis totam hic quam
+        quae, debitis porro aspernatur laborum, animi perferendis
+        nihil? Maxime laudantium rerum officiis voluptatibus, sint
+        molestias corporis perferendis nemo obcaecati iste molestiae
+        dolorum omnis magni mollitia inventore dicta asperiores eius
+        nihil numquam distinctio.
+        </p>
+    </div>
+    </div>
+</div>
