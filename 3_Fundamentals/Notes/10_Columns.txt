@@ -1,0 +1,39 @@
+Vertical Alignment:
+
+If the height of the row is greater than the height of the columns present then we can adjust the columns vertically in the middle or top or bottom..
+
+Syntax:
+
+align-items-start
+align-items-center
+align-items-end
+
+These three classes are used in a row to align all the columns either to top/bottom/center..
+
+align-self-start
+align-self-center
+align-self-end
+
+These three classes are used to a particular column to align that particular column..
+
+Horizontal Alignment:
+
+If there is more space to the right by default then we can horizontally align them by using justify content...
+
+Syntax:
+
+justify-content-start
+justify-content-center
+justify-content-end
+
+Note: Always the addition of col must be 12
+
+Reordering of columns:
+
+We can reorder the columns using classes like:
+
+order-first
+order-last 
+and also numbers like order-1, order-2, order-3
+
+This order is used when we need to show the items differently in different view ports..
