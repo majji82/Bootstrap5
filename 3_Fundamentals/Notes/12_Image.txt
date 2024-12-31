@@ -1,0 +1,16 @@
+Sometimes images are bigger than the screen..So we can use a class called img-fluid to set it to window size.
+
+The img-fluid will impact only the images which are bigger than the screen size and adjusts accordingly..
+If we need a small border around the image and also the image is a bit curved at borders we can use "image-thumbnail"
+
+If we want the image to be at the left and the text must be beside it..then add float-start to the image, and if we want the image to at right use float-end
+
+If we want the image to be at the center use: d-block, mx-auto...
+To control border-radius use rounded...
+
+img-fluid
+img-thumbnail
+mb-4
+float-start 
+d-block, mx-auto
+rounded-1 to rounded-5 
