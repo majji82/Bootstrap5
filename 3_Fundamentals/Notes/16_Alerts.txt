@@ -1,0 +1,10 @@
+alert
+alert-primary
+alert-link
+alert-dismissible
+show
+data-bs-dismiss="alert"
+btn-close
+
+
+Note: If we remove alert from bootstrap it will completely remove from thr HTML DOM tree..
