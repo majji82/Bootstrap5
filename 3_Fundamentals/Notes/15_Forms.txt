@@ -1,0 +1,6 @@
+form-label
+form-control
+form-control-sm
+form-control-lg
+form-control form-control-sm
+form-text
