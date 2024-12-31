@@ -1,0 +1,13 @@
+To make the table look good we just need to add class="table
+
+We can use all the default and custom colors...just be prefixing table-
+Ex:
+
+table-danger
+table-success
+table-striped
+table-striped-columns
+table-hover
+table-bordered
+border-danger
+table-borderless
