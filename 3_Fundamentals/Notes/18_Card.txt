@@ -1,0 +1,14 @@
+ Main:
+
+card 
+card-header
+card-body
+
+
+card-img
+list-group
+list-group-item
+
+text-start
+text-center
+text-end
