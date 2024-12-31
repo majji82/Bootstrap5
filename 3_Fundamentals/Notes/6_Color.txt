@@ -1,0 +1,49 @@
+Bootstrap has many colors which are in-built..Fo ex: we have primary, secondary, success, danger, warning, light, dark ,etc...
+
+To use these we have to use these key-words in class and also must prefix them..
+
+=> for background color => prefix: bg- => Ex: <p class="bg-primary"></p>
+=> for text color => prefix: text- => Ex: <p class="text-primary"></p>
+=> for button color => prefix: btn- => Ex: <p class="btn-primary"></p>
+
+
+We can also customize these colors using css but it is easy using sass..
+Extension: Live Sass compiler
+
+Then import 
+
+"liveSassCompile.settings.formats": [
+ {
+ "format": "compressed",
+ "extensionName": ".min.css",
+ "savePath": "/css"
+ }
+ ],
+ "liveSassCompile.settings.generateMap": false,
+
+ This to VS Code settings.. This creates a css file to scss file as browser cannot understand SCSS..
+
+Now Add the generated css link to the HTML file and remove the Bootstrap link:
+<link rel="stylesheet" href="./css/customize.min.css">
+
+Now to customize own colors:
+
+// Import Bootstrap's functions first
+@import "../node_modules/bootstrap/scss/_functions.scss";
+
+// Import Bootstrap variables
+@import "../node_modules/bootstrap/scss/_variables.scss";
+
+// Define your custom colors
+$custom-colors: (
+    'heroTitle': rgb(150, 148, 20),
+);
+
+// Merge custom colors into Bootstrap's `$theme-colors`
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Import the rest of Bootstrap (includes mixins and components)
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+In this way we can use our own colors...

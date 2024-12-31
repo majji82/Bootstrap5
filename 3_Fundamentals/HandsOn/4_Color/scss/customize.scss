@@ -1,0 +1,16 @@
+// Import Bootstrap's functions first
+@import "../node_modules/bootstrap/scss/_functions.scss";
+
+// Import Bootstrap variables
+@import "../node_modules/bootstrap/scss/_variables.scss";
+
+// Define your custom colors
+$custom-colors: (
+    'heroTitle': rgb(150, 148, 20),
+);
+
+// Merge custom colors into Bootstrap's `$theme-colors`
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Import the rest of Bootstrap (includes mixins and components)
+@import "../node_modules/bootstrap/scss/bootstrap";
