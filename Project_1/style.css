@@ -1,0 +1,138 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900 */
+
+/* Common CSS */
+body{
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,h2{
+    font-weight: 900;
+    line-height: 1em;
+}
+
+h3,h4,h5,h6{
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+h4{font-weight: 500;}
+
+h2{
+    color: #502314;
+    font-size: 60px;
+}
+
+h6,h3,h4{
+    color: #502314;
+    font-size: 25px;
+}
+
+p{
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.btn.btn-danger{
+    color: #d62300;
+    border: 1px solid #d62300;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 35px;
+}
+
+#main_menu .active{
+    color: #d62300;
+}
+
+/* Header */
+
+#main_menu nav{
+    background: #ebe2d3;
+    font-weight: 500;
+}
+
+#main_menu nav li{
+    margin-left: 15px;
+}
+/* Slider Area Style */
+
+#slider{
+    padding-top: 85px;
+}
+
+/* About Area */
+
+#about{
+    padding-top: 110px;
+}
+
+/* Work area */
+
+#work{
+    padding-top: 110px;
+    background-color: #f5ebdc;
+}
+
+/* Contact Area */
+
+#contact{
+    padding-top: 110px;
+}
+
+/* Contact Area Style */
+
+#contact{
+    background: url('img/map.jpg');
+}
+
+/* Footer Area */
+
+#footer form .btn.btn-danger{
+    border-radius: 0;
+}
+
+#footer ul li a{
+    color: #262626;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.social li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Responsive */
+
+/* <600px */
+@media only screen and (max-width:600px){ 
+    #main_menu img{
+        width: 200px;
+    }
+
+    #slider{
+        padding-top: 65px;
+    }
+
+    #about, #work, #service, #contact{
+        padding-top: 35px;
+    }
+
+    h2{
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+
+    h6{
+        font-size: 18px;
+    }
+}
